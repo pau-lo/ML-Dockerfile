@@ -10,9 +10,10 @@ COPY ./requirements.txt /requirements.txt
 # pip install
 RUN pip install --no-cache -r /requirements.txt
 
-RUN mkdir /machinelearning
-WORKDIR /machinelearning
-COPY ./machinelearning /machinelearning
+# creating a directory to work on
+RUN mkdir /machine_learning
+WORKDIR /machine_learning
+COPY ./machine_learning /machine_learning
 
 # RUN adduser -D paulo
 # USER paulo
