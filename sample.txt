@@ -1,9 +1,0 @@
-
-
-# running the notebook
-
-docker run -p 8888:8888 -it machine-learning:v1
-
-# mounting a local volume to the host
-
-docker run -d -it --name machine-learning -p 8888:8888 -p 6006:6006 -v /$(pwd):/machinelearning machine-learning:v2
