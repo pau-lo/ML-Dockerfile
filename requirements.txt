@@ -34,7 +34,7 @@ parso
 pexpect
 pickleshare
 Pillow
-prompt-toolkit
+prompt-toolkit<2.1.0
 protobuf
 ptyprocess
 Pygments
