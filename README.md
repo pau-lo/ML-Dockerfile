@@ -5,6 +5,10 @@ A setup for a machine learning dockerfile including a requirements.txt
 
 It can also be altered.
 
+# Building the Dockerfile
+
+Once you are in the current directory just run the following command:
+`docker image build .`
 
 # Running the notebook
 
