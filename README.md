@@ -8,7 +8,9 @@ It can also be altered.
 # Building the Dockerfile
 
 Once you are in the current directory just run the following command:
-`docker image build .`
+`docker build . -t machine-learning:v1` 
+
+Image will be name machine-learning:v1
 
 # Running the notebook
 
